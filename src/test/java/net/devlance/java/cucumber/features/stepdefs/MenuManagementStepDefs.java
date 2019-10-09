@@ -4,7 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class MenuManagement {
+public class MenuManagementStepDefs {
     @Given("I have a menu item {string} and price {int}")
     public void i_have_a_menu_item_and_price(String string, Integer int1) {
         // Write code here that turns the phrase above into concrete actions
