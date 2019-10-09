@@ -1,4 +1,4 @@
-package stepdefs;
+package net.devlance.java.cucumber.features.stepdefs;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
