@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b5139-7b74-4a85-8b44-786eb6a615d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d26b5139-7b74-4a85-8b44-786eb6a615d4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,6 +114,41 @@
               <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumberjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="testrunners" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570629725006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570630256248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/java5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -150,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuManagementTestRunner (1)">
+  <component name="RunManager" selected="JUnit.MenuManagementTestRunner">
     <configuration name="Feature: MenuManagement" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/net/devlance/java/cucumber/features/MenuManagement.feature" />
@@ -205,21 +237,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuManagementTestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cucumberjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.devlance.java.cucumber.testrunners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.devlance.java.cucumber.testrunners" />
-      <option name="MAIN_CLASS_NAME" value="net.devlance.java.cucumber.testrunners.MenuManagementTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MenuManagementTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumberjava" />
       <extension name="coverage">
@@ -237,16 +254,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="net.devlance.java.cucumber.features.features in cucumberjava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuManagementTestRunner" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="cucumberjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.devlance.java.cucumber.features.features.*" />
+          <option name="PATTERN" value="net.devlance.java.cucumber.testrunners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="net.devlance.java.cucumber.features.features" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="net.devlance.java.cucumber.testrunners" />
+      <option name="MAIN_CLASS_NAME" value="net.devlance.java.cucumber.testrunners.MenuManagementTestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,16 +274,13 @@
     <list>
       <item itemvalue="Cucumber java.Feature: MenuManagement" />
       <item itemvalue="JUnit.MenuManagementTestRunner" />
-      <item itemvalue="JUnit.net.devlance.java.cucumber.features.features in cucumberjava" />
-      <item itemvalue="JUnit.MenuManagementTestRunner (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MenuManagementTestRunner (1)" />
-        <item itemvalue="Cucumber java.Feature: MenuManagement" />
+        <item itemvalue="JUnit.MenuManagementTestRunner" />
         <item itemvalue="JUnit.MenuManagementTestRunner" />
         <item itemvalue="Cucumber java.Feature: MenuManagement" />
-        <item itemvalue="JUnit.net.devlance.java.cucumber.features.features in cucumberjava" />
+        <item itemvalue="Cucumber java.Feature: MenuManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +299,7 @@
       <workItem from="1570624504232" duration="1339000" />
       <workItem from="1570626306721" duration="1780000" />
       <workItem from="1570628126490" duration="1784000" />
-      <workItem from="1570629947294" duration="30000" />
+      <workItem from="1570629947294" duration="272000" />
     </task>
     <servers />
   </component>
@@ -319,13 +336,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6688000" />
+    <option name="totallyTimeSpent" value="6930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="783" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26738352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26738352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +358,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
