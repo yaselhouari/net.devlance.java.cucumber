@@ -8,8 +8,9 @@ import org.junit.runner.RunWith;
 //This will link the feature files with the stepdefs
 @CucumberOptions(
     features="src/test/java/net/devlance/java/cucumber/features",
-    glue="net.devlance.java.cucumber.stepdefs",
-    plugin="pretty"
+    glue={"net.devlance.java.cucumber.stepdefs"},
+    plugin="pretty",
+    junit = "--step-notifications"
 )
 public class MenuManagementTestRunner {
 
