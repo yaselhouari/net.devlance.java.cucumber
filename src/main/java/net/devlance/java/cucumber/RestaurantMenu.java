@@ -25,4 +25,14 @@ public class RestaurantMenu {
         }
         return false;
     }
+
+    public void delete(MenuItem cucumberSandwitch) {
+        int index = 0;
+        for (MenuItem menuItem:menuItems) {
+            if(menuItem.name.equals(cucumberSandwitch.name)) {
+                menuItems.remove(index);
+            }
+            index++;
+        }
+    }
 }

@@ -9,7 +9,7 @@ import net.devlance.java.cucumber.RestaurantMenu;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class MenuManagementStepDefs {
+public class AddMenuItemStepdefs {
 
     MenuItem cucumberSandwich;
     RestaurantMenu restaurantMenu;

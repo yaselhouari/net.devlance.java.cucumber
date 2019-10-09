@@ -1,4 +1,4 @@
-Feature: Menu Management
+Feature: Add a menu item
   Background: Initial haves
     Given I have a menu item "Cucumber Sandwich" and price 20
     When I add that menu item
