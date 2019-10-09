@@ -9,8 +9,12 @@ public class RestaurantMenu {
         menuItems = new  ArrayList<MenuItem>();
     }
 
-    public void add(MenuItem menuItem) {
-        menuItems.add(menuItem);
+    public boolean add(MenuItem menuItem) {
+        if(! findItem(menuItem.name)) {
+            menuItems.add ( menuItem );
+            return true;
+        }
+        return false;
     }
 
     public boolean findItem(String string) {

@@ -29,4 +29,14 @@ public class MenuManagementStepDefs {
     public void menu_item_with_name_will_be_added(String string) {
         assertTrue (restaurantMenu.findItem(string));
     }
+
+    @When("{string} menu item already exists")
+    public void menu_item_already_exists(String string) {
+        assertTrue(restaurantMenu.findItem(string));
+    }
+
+    @Then("Menu item with name {string} will not be added")
+    public void menu_item_with_name_will_not_be_added(String string) {
+        assertFalse(restaurantMenu.add(new MenuItem(string, 20)));
+    }
 }
