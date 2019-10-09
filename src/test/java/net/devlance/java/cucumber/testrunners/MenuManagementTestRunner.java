@@ -1,4 +1,4 @@
-package net.devlance.java.cucumber.features.testrunners;
+package net.devlance.java.cucumber.testrunners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features="src/test/java/net/devlance/java/cucumber/features",
     glue="net.devlance.java.cucumber.stepdefs",
-    plugin={"pretty"}
+    plugin="pretty"
 )
 public class MenuManagementTestRunner {
 
