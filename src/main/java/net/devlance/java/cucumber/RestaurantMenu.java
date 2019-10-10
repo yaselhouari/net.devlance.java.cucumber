@@ -35,4 +35,18 @@ public class RestaurantMenu {
             index++;
         }
     }
+
+    public void modify(String thename, MenuItem menuItem) {
+        int index = 0;
+        for (MenuItem aMenuItem:menuItems) {
+            if(aMenuItem.getName().equals(thename)) {
+                menuItems.set(index, menuItem);
+            }
+            index++;
+        }
+    }
+
+    public ArrayList<MenuItem> getAllItems() {
+        return this.menuItems;
+    }
 }
